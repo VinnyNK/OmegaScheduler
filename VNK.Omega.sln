@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNK.Omega", "src\VNK.Omega\VNK.Omega.csproj", "{203B495D-39A7-4695-8699-95AE2ABB08B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNK.Omega.Example", "example\VNK.Omega.Example\VNK.Omega.Example.csproj", "{FBF0FCDF-6603-41AC-B3EC-4A69988BEAF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +12,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{203B495D-39A7-4695-8699-95AE2ABB08B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{203B495D-39A7-4695-8699-95AE2ABB08B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF0FCDF-6603-41AC-B3EC-4A69988BEAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF0FCDF-6603-41AC-B3EC-4A69988BEAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF0FCDF-6603-41AC-B3EC-4A69988BEAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF0FCDF-6603-41AC-B3EC-4A69988BEAF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
