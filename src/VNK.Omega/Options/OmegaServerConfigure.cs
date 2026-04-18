@@ -4,7 +4,7 @@ namespace VNK.Omega.Options;
 
 internal class OmegaServerConfigure : IConfigureOptions<OmegaServerSettings>
 {
-    public bool EnableLogin { get; set; }
+    public bool EnableLog { get; set; }
     
     public int Retries { get; set; }
     
@@ -12,7 +12,7 @@ internal class OmegaServerConfigure : IConfigureOptions<OmegaServerSettings>
     
     public void Configure(OmegaServerSettings options)
     {
-        EnableLogin = options.EnableLogin;
+        EnableLog = options.EnableLog;
         Retries = options.Retries;
         MinutesToRetry = options.MinutesToRetry;
     }

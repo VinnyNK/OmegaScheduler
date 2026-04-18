@@ -9,7 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOmega(setup =>
 {
     //default
-    setup.EnableLogin = true;
+    setup.EnableLog = true;
     setup.Retries = 3;
     setup.MinutesToRetry = 5;
 });

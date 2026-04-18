@@ -2,7 +2,7 @@ namespace VNK.Omega.Options;
 
 public class OmegaServerSettings
 {
-    public bool EnableLogin { get; set; } = true;
+    public bool EnableLog { get; set; } = true;
 
     public int Retries { get; set; } = 3;
 

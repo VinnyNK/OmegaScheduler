@@ -19,14 +19,14 @@ internal class OmegaLogger : IOmegaLogger
 
     public void LogInformation(string message)
     {
-        if (!_options.Value.EnableLogin) return;;
+        if (!_options.Value.EnableLog) return;;
         var date = $"[{DateTime.Now}]";
         _logger.LogInformation($"{date} {Tag} - {message}");
     }
 
     public void LogError(Exception? exception, string message, params object?[] args)
     {
-        if (_options.Value.EnableLogin)
+        if (_options.Value.EnableLog)
             _logger.LogError(exception, $"{Tag} - {message}", args);
     }
 }
