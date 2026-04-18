@@ -1,7 +1,7 @@
 # OmegaScheduler
 
 ## Installation
-``dotnet add package Omega --version 1.0.1``
+``dotnet add package Omega --version 1.0.2``
 
 ## Usage
 ### Worker Class
