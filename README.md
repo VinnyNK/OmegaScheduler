@@ -67,7 +67,7 @@
     builder.Services.AddOmega(setup =>
     {
         //default values
-        setup.EnableLogin = true;
+        setup.EnableLog = true;
         setup.Retries = 3;
         setup.MinutesToRetry = 5;
     });
